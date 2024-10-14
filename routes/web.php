@@ -7,5 +7,6 @@ use Inertia\Inertia;
 
 Route::inertia('/', 'Landing/Index');
 Route::inertia('/About', 'Landing/Aboutus');
+Route::inertia('/Products', 'Landing/Products');
 
 require __DIR__.'/auth.php';

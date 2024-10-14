@@ -718,6 +718,55 @@ nav.main-menu li a {
   transition: 0.3s;
 }
 
+/* Align logo, search, and mobile menu */
+.header-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-icons a {
+  margin-right: 15px; /* Add space between search and hamburger icons */
+}
+
+.mobile-menu {
+  display: block; /* Ensure mobile menu icon is shown */
+  cursor: pointer;
+}
+
+.mobile-show {
+  display: block;
+}
+
+/* Hide main menu on smaller screens */
+.main-menu {
+  display: none;
+}
+
+/* Display main menu when active */
+.main-menu.active {
+  display: block;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: #f9f9f9; /* Give it a background color for visibility */
+  width: 100%;
+  text-align: center;
+}
+
+/* Handle responsive layout */
+@media (min-width: 768px) {
+  .main-menu {
+    display: block; /* Normal desktop menu */
+  }
+  .mobile-menu, .mobile-show {
+    display: none; /* Hide mobile controls */
+  }
+}
+
+
+
+
 .top-header-area .header-icons a {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;

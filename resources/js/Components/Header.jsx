@@ -36,14 +36,6 @@ export default (params) => {
                                 <ul>
                                     <li className="current-list-item">
                                         <Link href="/">Home</Link>
-                                        <ul className="sub-menu">
-                                            <li>
-                                                <Link href="/">Static Home</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/slider-home">Slider Home</Link>
-                                            </li>
-                                        </ul>
                                     </li>
                                     <li>
                                         <Link href="/About">About</Link>
@@ -51,12 +43,6 @@ export default (params) => {
                                     <li>
                                         <Link href="#">Pages</Link>
                                         <ul className="sub-menu">
-                                        <li>
-                                            <Link href="/404">404 page</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/about">About</Link>
-                                        </li>
                                         <li>
                                             <Link href="/cart">Cart</Link>
                                         </li>
@@ -70,7 +56,7 @@ export default (params) => {
                                             <Link href="/news">News</Link>
                                         </li>
                                         <li>
-                                            <Link href="/shop">Shop</Link>
+                                            <Link href="/Products">Products</Link>
                                         </li>
                                         </ul>
                                     </li>
