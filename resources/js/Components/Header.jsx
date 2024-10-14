@@ -46,7 +46,7 @@ export default (params) => {
                                         </ul>
                                     </li>
                                     <li>
-                                        <Link href="/ViewAbout">About</Link>
+                                        <Link href="/About">About</Link>
                                     </li>
                                     <li>
                                         <Link href="#">Pages</Link>
